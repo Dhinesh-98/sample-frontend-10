@@ -14,7 +14,8 @@ addBtn.addEventListener('click', () => {
     if (text !== '') {
         addTodoToDOM(text);
         saveTodoToLocalStorage(text);
-        input.value = '';
+        input.valu
+            e = '';
     }
 });
 
