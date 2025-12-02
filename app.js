@@ -31,7 +31,8 @@ function addTodoToDOM(text, completed = false) {
         updateLocalStorage();
     });
 
-    const deleteBtn = document.createElement('button');
+    const dele
+        teBtn = document.createElement('button');
     deleteBtn.textContent = 'Delete';
     deleteBtn.addEventListener('click', (e) => {
         e.stopPropagation();
