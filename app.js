@@ -8,7 +8,8 @@ window.onload = function() {
     todos.forEach(todo => addTodoToDOM(todo.text, todo.completed));
 };
 
-addBtn.addEventListener('click', () => {
+addBtn.addEven
+    tListener('click', () => {
     
     const text = input.value.trim();
     if (text !== '') {
