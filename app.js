@@ -9,6 +9,7 @@ window.onload = function() {
 };
 
 addBtn.addEventListener('click', () => {
+    
     const text = input.value.trim();
     if (text !== '') {
         addTodoToDOM(text);
