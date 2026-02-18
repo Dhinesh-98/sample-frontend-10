@@ -3,7 +3,7 @@ const addBtn = document.getElementById('add-btn');
 const todoList = document.getElementById('todo-list');
 
 // Load from localStorage
-window.onload = function() {
+ window.onload = function() {
     const todos = JSON.parse(localStorage.getItem('todos')) || [];
     todos.forEach(todo => addTodoToDOM(todo.text, todo.completed));
 };
