@@ -8,7 +8,7 @@ const todoList = document.getElementById('todo-list');
     todos.forEach(todo => addTodoToDOM(todo.text, todo.completed));
 };
 
-addBtn.addEven
+addBtn.addEven 
     tListener('click', () => {
     
     const text = input.value.trim();
